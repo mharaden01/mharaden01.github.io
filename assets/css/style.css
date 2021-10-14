@@ -1,0 +1,40 @@
+body{
+    background-color: #659DBD;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-family: cinzel;
+    font-weight: 600;
+    text-align: center;
+    font-size: 5em;
+    color: black;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+.custom-nav{
+    font-family: 'Acme', sans-serif;
+    background-color:#FBEEC1;
+    padding: 10px;
+   text-transform: uppercase;
+   border-bottom: 10px solid;
+   border-color: #DAAD86;
+   letter-spacing: 1.3px;
+}
+.clip{
+    color: white;
+    font-size: 1.5em;
+}
+h2{
+    font-size: 3em;
+}
+p,
+li{
+    font-size: 1.5em;
+}
