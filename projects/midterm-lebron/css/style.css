@@ -1,0 +1,111 @@
+.navbar-brand{
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.graphic{
+    max-height: 150px;
+    max-width: 150px;
+    }
+body{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5em;
+}
+h1{
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+.green{
+    font-size: .9em;
+    background-color: #A8FF00;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.byline{
+    font-weight: 200;
+}
+.lebron{
+box-shadow: 10px 7px #A8FF00;
+margin-bottom: 10px;
+}
+#caption{
+    font-weight: 200;
+    font-style: italic;
+    font-size: .8em;
+    color: gray;
+    margin-bottom: 40px;
+}
+.footnote{
+    font-size: .8em;
+    border-top: 2px;
+    border-style: dashed;
+    border-color: gray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.summary{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.carryjob{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.charttxt{
+    font-size: .8em;
+}
+.pglink{
+    color: black;
+    font-weight: 600;
+
+}
+.pglink:hover{
+    color: #A8FF00;
+}
+.chartlink{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media(max-width:375px){
+    .charttxt{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media(max-width:775px){
+    h1{
+        font-size: 2em;
+    }
+    .navbar-brand{
+        padding-bottom: 15px;
+    }
+    .green{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .lebron{
+        box-shadow: none;
+        border-top: 3px #A8FF00;
+        border-bottom: 3px #A8FF00;
+    }
+    .carryjob{
+        border-bottom: 1px gray;
+    }
+    .charts{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .chartxt{
+        font-weight: 500;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
