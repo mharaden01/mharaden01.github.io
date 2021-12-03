@@ -1,0 +1,19 @@
+.hitter{
+max-width: 700px;
+}
+body{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+.chart{
+    max-width: 1240px;
+    padding: 20px;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-size: 1.1em;
+}

@@ -2,23 +2,53 @@
 <html>
 
 <head>
-  <title>Bootstrap</title>
+  <title>Is batting average still the top hitting stat in baseball?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="This is a tutorial for how to use Bootstrap as a framework for rapid web development.">
+    content="Batting average has been a long-used baseball statistic to judge hitters. But have other statistics overtaken it?">
   <!-- Fonts -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
-  
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="offset-lg-3 col-lg-6">
+        <h1>Batting Average: Is It An Outdated Statistic In Baseball?</h1>
+        <h3>By: Matt Haraden</h3>
+      </div>
+    </div>
+    <div class="offset-lg-3 col-lg-4 center">
+      <img src="img/1.jpg" img="img-fluid" alt="Baseball Player" class="hitter">
+      <p>Yankees hitter DJ Lamahieu won the batting title two seasons ago.</p>
+    </div>
+    <p>For years we have used batting average to judge baseball players on how they are as hitters. The meaning behind this statistic is simple; the more hits you get, the higher batting average you will have. However, with advanced statistics and the overall change in the way the game is played, a new question is raised: is batting average still the best statistic to use when judging a hitter? </p>
+    <p>One statistic that is currently being argued to take the place of batting average is on base percentage, or OBP. On base percentage measures how often a batter reaches base per plate appearance. Not only does it take hits into account, but OBP also includes walks and hit-by-pitches. These other two factors are as valuable as getting a single, but not reflected in a player’s batting average, which could make OBP a viable option to replace batting average in the future. </p>
+    <p>Power hitting is more prominent in today’s game than it has ever been. Teams are looking for a player who can hit upwards of 30-40 home runs each season, and don’t really care about their batting average.</p>
+    <img src="img/homers.png" img="img-fluid" alt="Home Run Leaders Chart" class="chart">
+    <p>This chart shows the top 10 players across the league who hit the most home runs (with a three-way tie for 10th). Joey Gallo is highlighted because he received a lot of criticism this season for his low number of hits and high number of strikeouts. </p>
+    <p>Let’s put his numbers into perspective. Gallo was tied for 10th in the league with 38 home runs this past season. His batting average was 0.199, the worst of the top 10. But, he was walked 111 times this season, the most out of these 10 hitters. His OBP was 0.361, which put him at 6th best of the players on this chart. </p>
+    <p>Even though he was the worst hitter in terms of batting average and strikeouts, Gallo was right in the middle of the list in terms of getting on base. This isn’t something you would think about unless you factored these extra statistics, like walks, into your judgement.</p>
+    <p>Another number valuable to judging the skill of a hitter in today’s baseball is the slugging percentage. This statistic gives more weight to extra base hits, meaning the more bases you get per hit, the higher your slugging percentage.</p>
+    <p>Slugging percentage itself does not factor in walks hit-by-pitches, but there is something called on base percentage plus slugging, or OPS, that factors in both walks and hit-by-pitches, and weighs its average based on how many bases you get on each hit.</p>
+    <img src="img/batting.png" img="img-fluid" alt="Home Run Leaders Chart" class="chart">
+    <p>This chart shows the 10 players with the highest batting average for the 2021 season. Trea Turner won the batting title, hitting 0.328 on the season. However, Bryce Harper, 9th on the list, ended up winning the National League MVP Award.</p>
+    <p>Why did the 9th best hitter in the league win the MVP for the National league? Well, Harper led the entire league in OPS, with a 1.044 rating. Turner’s was only 0.911, and Harper had much better OBP and slugging numbers as well.</p>
+    <p>Batting average has been the key in judging baseball hitters since the game was invented. But, with the introduction of newer statistics and overall changes in the game itself, there needs to be a change. It’s time for baseball fans to rely on other, more accurate statistics that can truly judge how good a certain player is. Batting average is on the verge of extinction.</p>
+  </div>
   <!--Script tags-->
   <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
