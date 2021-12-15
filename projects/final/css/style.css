@@ -1,10 +1,14 @@
 .hitter{
+    width: 100%;
+    height: auto;
     max-width: 600px;
     margin-top: 20px;
     margin-bottom: 10px;
     box-shadow: 10px 7px #ffff00;
 }
 .harper{
+    width: 100%;
+    height: auto;
     max-width: 800px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -21,6 +25,8 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 .chart{
+    width: 100%;
+    height: auto;
     max-width: 1240px;
     padding: 20px;
     margin-top: 30px;
@@ -61,7 +67,7 @@ a:hover{
 @media(max-width: 775px){
     .chart{
         max-width: 600px;
-        margin-top: 0px;
+        margin-top: 0;
     }
     .hitter{
         max-width: 400px;
